@@ -1,0 +1,14 @@
+python -V if not install (https://www.python.org/downloads/release/python-360/)
+pip -V (The Windows installer incorporates pip3 (the Python package manager) by default)
+pip list (lists installed packages)
+pip install virtualenv (to install virtual environment package)
+virtualenv --python 3.6 venv (to create virtual environment)
+cd venv\Scripts
+D:\ZealCoders - MLRIT\cms-zealcoders\venv\Scripts>activate
+(venv) D:\ZealCoders - MLRIT\cms-zealcoders>pip install -r requirements.txt
+**For mysql database install related whl file from the link (cp33 means CPython version 3.3): https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient
+python manage.py runserver [port number]
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py createsuperuser - to create a superuser
