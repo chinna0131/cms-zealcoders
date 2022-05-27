@@ -12,3 +12,7 @@ python manage.py makemigrations
 python manage.py migrate
 
 python manage.py createsuperuser - to create a superuser
+
+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
+
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
